@@ -24,6 +24,7 @@ public class Main {
             String shopName = reader.readLine();
 
             System.out.print("¬ведите цену товара = ");
+
             double price = Double.parseDouble(reader.readLine());
 
             prices[i] = new Price(name, shopName, price);
@@ -31,8 +32,8 @@ public class Main {
 
         Arrays.sort(prices, Comparator.comparing(Price::getShopName));
 
-        for (int i = 0; i < prices.length; i++) {
-            System.out.println(prices[i].toString());
+        for (Price temp: prices ) {
+            System.out.println(temp.toString());
         }
 
         System.out.print("¬ведите наименование магазина: ");
@@ -52,9 +53,14 @@ public class Main {
         }
 
         if (!ff) {
-            System.out.println(exception.getMessage());
+            try {
+                throw exception;
+            } catch (Exception e) {
+                System.out.println(exception.getMessage());
+            }
         }
-    }
 
+    }
 }
+
 
