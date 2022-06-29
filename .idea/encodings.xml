@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/hometasks/task2/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/hometasks/task2/Worker.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/hometasks/task3/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/hometasks/task3/Price.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/hometasks/task5/Calculator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/hometasks/task5/Main.java" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>

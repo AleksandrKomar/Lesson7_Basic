@@ -13,13 +13,13 @@ public class Main {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.print("Введите число a: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ a: ");
         double a = Double.parseDouble(reader.readLine());
 
-        System.out.print("Введите число  b: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ  b: ");
         double b = Double.parseDouble(reader.readLine());
 
-        System.out.print("Введите операцию из предложенных(+, -, *, /):  - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РѕРїРµСЂР°С†РёСЋ РёР· РїСЂРµРґР»РѕР¶РµРЅРЅС‹С…(+, -, *, /):  - ");
         String operation = reader.readLine();
 
         reader.close();
@@ -43,7 +43,7 @@ public class Main {
                 System.out.println(a + " " + operation + " " + b + " = " + Calculator.mul(a, b));
                 break;
             default:
-                System.out.println("Введена неизвестная операция");
+                System.out.println("Р’РІРµРґРµРЅР° РЅРµРёР·РІРµСЃС‚РЅР°СЏ РѕРїРµСЂР°С†РёСЏ");
         }
 
     }

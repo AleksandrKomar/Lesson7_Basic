@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        Exception exception = new Exception("---Магазин не найден!---");
+        Exception exception = new Exception("---РњР°РіР°Р·РёРЅ РЅРµ РЅР°Р№РґРµРЅ!---");
 
         Price[] prices = new Price[2];
 
@@ -17,13 +17,13 @@ public class Main {
 
         for (int i = 0; i < prices.length; i++) {
 
-            System.out.println("Введите наименование товара = ");
+            System.out.println("Р’РІРµРґРёС‚Рµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° = ");
             String name = reader.readLine();
 
-            System.out.print("Введите имя магазина = ");
+            System.out.print("Р’РІРµРґРёС‚Рµ РёРјСЏ РјР°РіР°Р·РёРЅР° = ");
             String shopName = reader.readLine();
 
-            System.out.print("Введите цену товара = ");
+            System.out.print("Р’РІРµРґРёС‚Рµ С†РµРЅСѓ С‚РѕРІР°СЂР° = ");
 
             double price = Double.parseDouble(reader.readLine());
 
@@ -36,7 +36,7 @@ public class Main {
             System.out.println(temp.toString());
         }
 
-        System.out.print("Введите наименование магазина: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РјР°РіР°Р·РёРЅР°: ");
         String shop_name = reader.readLine();
 
         reader.close();
@@ -46,8 +46,8 @@ public class Main {
         for (Price temp : prices) {
 
             if (temp != null && temp.getShopName().equals(shop_name)) {
-                // выведем товар
-                System.out.println("Товары:\n \t" + temp.getName());
+                // РІС‹РІРµРґРµРј С‚РѕРІР°СЂ
+                System.out.println("РўРѕРІР°СЂС‹:\n \t" + temp.getName());
                 ff = true;
             }
         }

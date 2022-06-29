@@ -22,7 +22,7 @@ public class Price {
 
     @Override
     public String toString() {
-        return "Товар = " + this.name + "; Магазин = " + this.shopName + "; стоимость = " + this.price;
+        return "РўРѕРІР°СЂ = " + this.name + "; РњР°РіР°Р·РёРЅ = " + this.shopName + "; СЃС‚РѕРёРјРѕСЃС‚СЊ = " + this.price;
     }
 
 }

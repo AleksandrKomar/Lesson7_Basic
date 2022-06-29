@@ -12,7 +12,7 @@ public class Calculator {
         if (b != 0) {
             c = a / b;
         } else {
-            throw new ArithmeticException("Деление на ноль невозможно");
+            throw new ArithmeticException("Р”РµР»РµРЅРёРµ РЅР° РЅРѕР»СЊ РЅРµРІРѕР·РјРѕР¶РЅРѕ");
         }
         return c;
     }

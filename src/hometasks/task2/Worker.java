@@ -22,7 +22,7 @@ public class Worker {
 
     @Override
     public String toString() {
-        return "ФИО = " + this.fio + ", Должность = " + this.post + ", Год принятия = " + this.year;
+        return "Р¤РРћ = " + this.fio + ", Р”РѕР»Р¶РЅРѕСЃС‚СЊ = " + this.post + ", Р“РѕРґ РїСЂРёРЅСЏС‚РёСЏ = " + this.year;
     }
 
 }

@@ -19,13 +19,13 @@ public class Main {
 
         for (int i = 0; i < worker.length; i++) {
 
-            System.out.print("¬‚Â‰ËÚÂ ‘.».Œ. ‡·ÓÚÌËÍ‡ = ");
+            System.out.print("–í–≤–µ–¥–∏—Ç–µ –§.–ò.–û. —Ä–∞–±–æ—Ç–Ω–∏–∫–∞ = ");
             String fio = br.readLine();
 
-            System.out.print("¬‚Â‰ËÚÂ ‰ÓÎÊÌÓÒÚ¸ = ");
+            System.out.print("–í–≤–µ–¥–∏—Ç–µ –¥–æ–ª–∂–Ω–æ—Å—Ç—å = ");
             String post = br.readLine();
 
-            System.out.print("¬‚Â‰ËÚÂ „Ó‰ ÔËÌˇÚËˇ Ì‡ ‡·ÓÚÛ = ");
+            System.out.print("–í–≤–µ–¥–∏—Ç–µ –≥–æ–¥ –ø—Ä–∏–Ω—è—Ç–∏—è –Ω–∞ —Ä–∞–±–æ—Ç—É = ");
             String year = br.readLine();
 
             if (isThisDateValid(year, "yyyy")) {
@@ -35,18 +35,18 @@ public class Main {
             }
         }
 
-        //ÒÓÚËÛÂÏ ÔÓ ‘»Œ
+        //—Å–æ—Ä—Ç–∏—Ä—É–µ–º –ø–æ –§–ò–û
         Arrays.sort(worker, Comparator.comparing(Worker::getFio));
 
-        //ÔÓÍ‡ÊÂÏ ÓÚÒÓÚËÓ‚‡ÌÌ˚È Ï‡ÒÒË‚
+        //–ø–æ–∫–∞–∂–µ–º –æ—Ç—Å–æ—Ä—Ç–∏—Ä–æ–≤–∞–Ω–Ω—ã–π –º–∞—Å—Å–∏–≤
         for (int i = 0; i < worker.length; i++) {
             System.out.println(worker[i].toString());
         }
 
-        System.out.println("¬‚Â‰ËÚÂ ÁÌ‡˜ÂÌËÂ:");
+        System.out.println("–í–≤–µ–¥–∏—Ç–µ –∑–Ω–∞—á–µ–Ω–∏–µ:");
         int value = Integer.parseInt(br.readLine());
 
-        //Á‡ÍÓÂÏ ÔÓÚÓÍ
+        //–∑–∞–∫—Ä–æ–µ–º –ø–æ—Ç–æ–∫
         br.close();
 
         int yearNow = Calendar.getInstance().get(Calendar.YEAR);
@@ -57,7 +57,7 @@ public class Main {
             int stage = yearNow - year;
 
             if (stage > value) {
-                System.out.println("‘»Œ = " + temp.getFio());
+                System.out.println("–§–ò–û = " + temp.getFio());
             }
 
         }
